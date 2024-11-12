@@ -23,3 +23,22 @@ int main()
   cout<<res;
   
 }
+
+//method=02
+   #include <bits/stdc++.h>
+using namespace std;
+int largeEle(vector<int>&arr)
+{
+    sort(arr.begin(),arr.end());
+    return arr[arr.size()-1];
+    
+}
+int main()
+{
+  vector<int> arr1={3,45,67,21,34,56,78,90,12,45,66};
+  vector<int>arr2={4,5,6,7,13};
+  cout<<"largest Element :  "<<largeEle(arr1)<<endl;
+  cout<<"largest Element : "<<largeEle(arr2)<<endl;
+  
+}
+
