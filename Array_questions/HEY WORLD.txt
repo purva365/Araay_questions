@@ -2,4 +2,4 @@ vector sort = sort(v.begin(),v.end());
 array sort simple=sort(arr,arr+n)
 acces last index=arr.size()-1;
 second last=arr.size()-1 and so on....
-sort o(log(n) leta hia
+set takes time complexity =o(nlog(n))
