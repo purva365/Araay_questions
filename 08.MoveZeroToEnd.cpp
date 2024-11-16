@@ -44,3 +44,14 @@ for(int &it:ans)
 
     return 0;
 }
+/*
+   vector<int> temp1, temp2;
+
+    // Separate non-zero and zero elements
+    for (int num : nums) {
+        if (num != 0)
+            temp1.push_back(num);
+        else
+            temp2.push_back(num);
+    }
+*/
