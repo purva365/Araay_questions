@@ -8,6 +8,9 @@ vector<int> TwoSum(int arr[],int n,int target)
 Reason: There are two loops(i.e. nested) each running for approximately N times.
 
 Space Complexity: O(1) as we are not using any extra space.
+
+
+tc=O(n)  vala concept bhi dekh lena ........
     */
  vector<int>ans;
  for(int i=0;i<n;i++)
