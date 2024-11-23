@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*Time Complexity: O(N*logM) + O(M), where M = size of the map i.e. M = (N/2)+1. N = size of the array.
+    */
 int twicefind(int arr[],int n)
 {
     map<int,int>mp;
